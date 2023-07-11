@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    position: relative;
+    background-color: grey;
+    font-family: 'Source Sans Pro',sans-serif ;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav{
+    padding: 35px;
+
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 24px;
+    padding: 31px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(12, 4, 4);
+}
+
+.main{
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+}
+
+.infocontainer{
+    height: 65vh;
+    width: 80vw;
+    margin: 147px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pic img{
+    width: 400px;
+    height: 65vh;
+    
+}
+
+.devinfo{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Playfair Display', serif;
+}
+
+.hello{
+    font-size: 2em;
+   
+}
+
+.Name{
+font-size: 3em;
+font-weight: bold;
+font-family: 'Playfair Display', serif;
+}
+
+.About{
+    font-size: 2.5em;
+}
+
+.btn{
+    margin-top: 23px;
+    padding: 6px 10px;
+    border-radius: 15px;
+    color: white;
+    background-color: green;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 3px 3px;
+    cursor: pointer;
+}
+
+.btn-sm{
+     font-size: 15px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: green;
+}
+.buttons{
+font-size: 40px;
+}
+
+.buttons{
+    margin-top: 2.3em;
+    font-size: 16px;
+}
+
+.MoreAbout{
+    font-size: 2em;
+    font-family: 'Playfair Display', serif;
+    margin-top: 2.3em;
+}
+
+
+.contactform{
+    padding: 0 32px;
+    font-family: 'Playfair Display', serif;
+    margin: 0 199px;
+}
+
+.contactform h1{
+    font-family: 'Source Sans Pro',sans-serif;
+}
+
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#emailHelp{
+    font-size: 10px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+.contactform form div input{
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+.contactform form {
+    margin: 0 40px;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check-input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+h1{
+    font-family: 'Source Sans Pro',sans-serif;
+    margin: 23px;
+}
+
+p{
+    font-family: 'Playfair Display', serif;
+}
+
+.intro{
+     margin: 10px 100px;
+}
+
+.intro h2{
+    font-family: 'Playfair Display', serif;
+    margin: 12px 12px;
+}
+
+.intro p{
+    font-family: 'Source Sans Pro',sans-serif;
+    margin: 12px 12px;
+}
+
+.skill{
+    width: 265px;
+    height: 10px;
+    background-color: red;
+}
+
+.skillcontainer{
+    padding: 12px;
+
+}
+
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: 900;
+}
+
+.hundred{
+    width: 265px;
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+.fifty{
+    width: 125px;
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+.t5{
+    width: 100px;
+    background-color: green;
+    border: 2px solid black;
+}
+
+.eighty{
+    width: 215px;
+    background-color: coral;
+    border: 2px solid black;
+}
+
+.ninety{
+    width: 240px;
+    background-color: greenyellow;
+    border: 2px solid black;
+}
+
+.seventy{
+    width: 180px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.sidebargo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+} 
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+@media only screen and (max-width: 1000px){ 
+    .devinfo{
+        font-size: 10px;
+    }
+
+    .pic{
+        display: none;
+    }
+.intro, .contactform, .contactform{
+    margin: 50px 8px;
+}
+
+.buttons{
+    font-size: 6px;
+}
+} 
+
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.cross{
+margin-left: 144px;
+
+}
+
+.Activities{
+    margin-left: 23px;
+}
+
+.Projects{
+    margin-left: 21px;
+}
+
+.Certifications{
+    margin-left: 23px;
+}
