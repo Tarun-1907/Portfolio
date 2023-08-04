@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    min-height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("pngtree-internet-stuff-picture-image_1677897.jpg") no-repeat center center fixed;
+    background-size: cover;
+}   
+
+.container form {
+    width: 650px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    backdrop-filter: blur(15px);
+    flex-wrap: wrap;
+}
+
+.container form h1 {
+    color: white;
+    font-weight: 500;
+    margin-top: 15px;
+    width: 500px;
+    text-align: center;
+}
+
+.container form input {
+    width: 250px;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background: none;
+    border-bottom: 2px solid white;
+}
+
+.container form input::placeholder {
+    color: white;
+}
+
+.container form #lastname,
+.container form #contact {
+    margin-left: 15px;
+}
+
+.btn {
+    width: 250px;
+    height: 40px;
+    padding-left: 10px;
+    border: 2px 1px;
+    border-color: white;
+    font-size: 15px;
+    color: white;
+    background: none;
+
+}
