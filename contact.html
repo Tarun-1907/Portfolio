@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="logo">My Portfolio</div>
+          <div class="nav-right">
+            <ul class="nav-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href="experience.html">Experiences and Achievements</a></li>
+              <!-- <li><a href="contact.html">Contact</a></li> -->
+            </ul>
+            <!-- <div class="theme-toggle" id="theme-toggle">
+                <i class="fas fa-moon" id="theme-icon"></i>
+              </div> -->
+            <!-- <div class="hamburger" id="hamburger">
+              <i class="fas fa-bars"></i>
+            </div> -->
+          </div>
+        </nav>
+      </header>
+
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Have a question or want to work together? Feel free to reach out!</p>
+    
+    <div class="contact-container">
+      <!-- Contact Form -->
+      <form id="contact-form" class="animated-form" action="https://api.web3forms.com/submit" method="POST">
+        <!-- Web3Forms Access Key -->
+        <input type="hidden" name="access_key" value="95d28fde-ac9a-4065-a66c-b1e032f79f15">
+        
+        <!-- Form Fields -->
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="contact">Contact Number</label>
+          <input type="tel" id="contact" name="contact" placeholder="Enter your contact number" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="Subject" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+        </div>
+        
+        <!-- Honeypot for Spam Protection -->
+        <input type="hidden" name="redirect" value="https://web3forms.com/success">
+        <input type="checkbox" name="botcheck" style="display: none;">
+        
+        <!-- Submit Button -->
+        <button type="submit" class="btn btn-primary">Send Message</button>
+        
+        <!-- Success Message -->
+        <div id="result" class="result-message"></div>
+      </form>
+      
+      <!-- Contact Info -->
+      <div class="contact-info animated-info">
+        <h3>Get in Touch</h3>
+        <p>You can also reach me via email or social media:</p>
+        <ul>
+          <li><i class="fas fa-envelope"></i> 
+            <a href="tarun2003jit@gmail.com">tarun2003jit@gmail.com</a>
+          </li>
+          <li><i class="fab fa-linkedin"></i> 
+            <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+          </li>
+          <li><i class="fab fa-github"></i> 
+            <a href="https://github.com/Tarun-1907" target="_blank">GitHub</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+  <footer>
+    <p>&copy; 2025. All rights reserved.</p>
+  </footer>
+
+  <script src="scripts.js"></script>

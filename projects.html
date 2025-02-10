@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+          <div class="logo">My Portfolio</div>
+          <div class="nav-right">
+            <ul class="nav-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <!-- <li><a href="projects.html">Projects</a></li> -->
+              <li><a href="experience.html">Experiences and Achievements</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <!-- <div class="theme-toggle" id="theme-toggle">
+                <i class="fas fa-moon" id="theme-icon"></i>
+              </div> -->
+            <div class="hamburger" id="hamburger">
+              <i class="fas fa-bars"></i>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <p>Here are some of the projects I've worked on.</p>
+        <div class="project-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="images/project1.png" alt="Project 1">
+              <div class="project-overlay">
+                <a href="https://studious-app.streamlit.app/" class="btn btn-view">View Project</a>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>STUDIOUS</h3>
+              <p> I developed a video explanation model using Streamlit and Gemini that enables users to analyze and summarize video content efficiently. Users can either upload a video file or provide a video link, and the model generates a detailed summary of the video's content. Additionally, users can ask questions related to the video, and the model provides accurate responses based on the video's information. This solution enhances content understanding and is useful for research, education, and media analysis. 🚀</p>
+              <div class="project-tags">
+                <span>Generative AI</span>
+                <span>Python</span>
+                <span>Streamlit</span>
+                <span>Gemini</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <img src="images/project2.jpg" alt="Project 2">
+              <div class="project-overlay">
+                <a href="https://applicationtracking-system.streamlit.app/" class="btn btn-view">View Project</a>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>ResumeRadar</h3>
+              <p>Developed an Application Tracking System with Google’s Gemini Pro Vision and custom data to match resumes with job descriptions, providing scores and improvement suggestions. Integrated google-generativeai and pdf2image libraries.
+               Deployed the system using Streamlit, benefiting 15 students by enhancing their resumes.</p>
+              <div class="project-tags">
+                <span>Streamlit</span>
+                <span>Python</span>
+                <span>Gemini</span>
+                <span>pdf2image</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <img src="images/project3.png" alt="Project 3">
+              <div class="project-overlay">
+                <a href="#" class="btn btn-view">View Project</a>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>NestFinder</h3>
+              <p>Engineered a student-centric PG recommendation engine that leverages collaborative and popularity-based filtering to empower students to find accommodations. It helped 8 students to find their ideal accommodation.
+                Manually collected data using Google APIs to built this model achieving 99.5% accuracy. This effort resulted in a 40% increase in user engagement and 50% improvement in search efficiency.</p>
+              <div class="project-tags">
+                <span>Collaborative filtering</span>
+                <span>Popularity based filtering</span>
+                <span>Google API</span>
+                <span>Matplotlib</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <img src="images/project4.jpg" alt="Project 4">
+              <div class="project-overlay">
+                <a href="#" class="btn btn-view">View Project</a>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>ChurnGuard</h3>
+              <p>Implemented a customer churn prediction model utilizing TensorFlow, Pandas, NumPy, and Seaborn. This model enabled businesses to identify at-risk customers with a textbf 90% accuracy.
+            Preprocessed real-world business data to train a highly accurate churn prediction model with a 94% success rate, and developed an interactive interface using Flask API, HTML, and CSS for seamless user interaction.</p>
+              <div class="project-tags">
+                <span>Machine Learning</span>
+                <span>Python</span>
+                <span>TensorFlow</span>
+                <span>Seaborn</span>
+                <span>Numpy</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <img src="images/project5.jpg" alt="Project 5">
+              <div class="project-overlay">
+                <a href="https://tarun-1907.github.io/TODO/" class="btn btn-view">View Project</a>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>TODO</h3>
+              <p>I developed a To-Do List website with a user-friendly interface for task management. It includes features like task creation, categorization, priority levels, due dates, reminders, drag-and-drop functionality, dark mode, and real-time notifications. Users can filter tasks, track progress, and stay organized efficiently. 🚀</p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <img src="images/project6.jpg" alt="Project 6">
+              <div class="project-overlay">
+                <a href="#" class="btn btn-view">View Project</a>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Translingo</h3>
+              <p>I developed a multilingual translation model that converts video and audio content into different languages using Streamlit, Whisper, and GTTS. Users can upload videos or audio files, and the model accurately transcribes, translates, and generates spoken output in the desired language. This solution enhances accessibility and global reach for multimedia content. 🚀</p>
+              <div class="project-tags">
+                <span>Streamlit</span>
+                <span>NLP</span>
+                <span>Whisper</span>
+                <span>GTTS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+  <footer>
+    <p>&copy; 2025. All rights reserved.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
