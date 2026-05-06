@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Tarunjit Saha</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="page-contact">
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursor-follower"></div>
+
+  <header class="header" id="header">
+    <nav class="nav">
+      <a href="index.html" class="nav-logo">TS<span class="dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="projects.html" class="nav-link">Projects</a></li>
+        <li><a href="experience.html" class="nav-link">Experience</a></li>
+        <li><a href="contact.html" class="nav-link nav-cta active">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+    <div class="mobile-menu" id="mobile-menu">
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="page-hero">
+    <div class="page-hero-bg">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+    </div>
+    <div class="container">
+      <span class="page-tag reveal-up">Let's Connect</span>
+      <h1 class="page-title reveal-up" style="animation-delay:0.2s">
+        Start a <em>conversation</em>
+      </h1>
+    </div>
+  </div>
+
+  <section class="contact-section">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- Contact Info -->
+        <div class="contact-left reveal-left">
+          <h2>Let's work <em>together</em></h2>
+          <p>Whether it's a research collaboration, internship, or full-time role — I'd love to hear from you. I typically respond within 24 hours.</p>
+
+          <div class="contact-channels">
+            <a href="mailto:tarun2003jit@gmail.com" class="channel-item">
+              <div class="channel-icon"><i class="fas fa-envelope"></i></div>
+              <div class="channel-info">
+                <span class="channel-label">Email</span>
+                <span class="channel-value">tarun2003jit@gmail.com</span>
+              </div>
+              <i class="fas fa-arrow-right channel-arrow"></i>
+            </a>
+            <a href="https://linkedin.com/in/yourprofile" target="_blank" class="channel-item">
+              <div class="channel-icon"><i class="fab fa-linkedin"></i></div>
+              <div class="channel-info">
+                <span class="channel-label">LinkedIn</span>
+                <span class="channel-value">Connect with me</span>
+              </div>
+              <i class="fas fa-arrow-right channel-arrow"></i>
+            </a>
+            <a href="https://github.com/Tarun-1907" target="_blank" class="channel-item">
+              <div class="channel-icon"><i class="fab fa-github"></i></div>
+              <div class="channel-info">
+                <span class="channel-label">GitHub</span>
+                <span class="channel-value">Tarun-1907</span>
+              </div>
+              <i class="fas fa-arrow-right channel-arrow"></i>
+            </a>
+          </div>
+
+          <div class="availability-box">
+            <div class="availability-dot"></div>
+            <div>
+              <strong>Available for opportunities</strong>
+              <p>Open to internships, research collabs, and full-time roles in ML/AI.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-right reveal-right">
+          <form id="contact-form" action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+            <input type="hidden" name="access_key" value="95d28fde-ac9a-4065-a66c-b1e032f79f15">
+            <input type="hidden" name="redirect" value="https://web3forms.com/success">
+            <input type="checkbox" name="botcheck" style="display:none">
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="John Doe" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="john@example.com" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="contact">Contact Number <span class="optional">(optional)</span></label>
+              <input type="tel" id="contact" name="contact" placeholder="+91 XXXXX XXXXX">
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Tell me about your project, opportunity, or just say hi..." required rows="5"></textarea>
+            </div>
+
+            <button type="submit" class="btn-primary btn-full" id="submit-btn">
+              Send Message <i class="fas fa-paper-plane"></i>
+            </button>
+
+            <div id="result" class="form-result"></div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-left">
+          <span class="footer-logo">TS<span class="dot">.</span></span>
+          <p>AI Engineer — Building the future with AI.</p>
+        </div>
+        <div class="footer-links">
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="experience.html">Experience</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-social">
+          <a href="https://github.com/Tarun-1907" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/tarunjit-saha-3a0092233/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:tarun2003jit@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Tarunjit Saha. Crafted with passion.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

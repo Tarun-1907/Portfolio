@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarunjit Saha — ML Engineer</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursor-follower"></div>
+
+  <!-- Loader -->
+  <div class="loader" id="loader">
+    <div class="loader-inner">
+      <span class="loader-text">TS</span>
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <header class="header" id="header">
+    <nav class="nav">
+      <a href="index.html" class="nav-logo">TS<span class="dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="projects.html" class="nav-link">Projects</a></li>
+        <li><a href="experience.html" class="nav-link">Experience</a></li>
+        <li><a href="contact.html" class="nav-link nav-cta">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+    <div class="mobile-menu" id="mobile-menu">
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-bg">
+      <div class="grid-overlay"></div>
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-tag reveal-up" style="animation-delay:0.2s">
+        <span class="tag-dot"></span>
+        Available for opportunities
+      </div>
+      <h1 class="hero-title">
+        <span class="reveal-up" style="animation-delay:0.4s">Hi, I'm</span>
+        <br>
+        <span class="hero-name reveal-up" style="animation-delay:0.6s">Tarunjit<br>Saha</span>
+      </h1>
+      <div class="hero-role reveal-up" style="animation-delay:0.8s">
+        <span class="typing-wrap">
+          <span class="typing-animation"></span>
+          <span class="cursor-blink">|</span>
+        </span>
+      </div>
+      <p class="hero-desc reveal-up" style="animation-delay:1s">
+        Building intelligent systems at the intersection of data, 
+        algorithms, and real-world impact.
+      </p>
+      <div class="hero-actions reveal-up" style="animation-delay:1.2s">
+        <a href="projects.html" class="btn-primary">View Work <i class="fas fa-arrow-right"></i></a>
+        <a href="contact.html" class="btn-ghost">Let's Talk</a>
+      </div>
+    </div>
+
+    <div class="hero-stats reveal-up" style="animation-delay:1.4s">
+      <div class="stat">
+        <span class="stat-num">10+</span>
+        <span class="stat-label">Projects</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-num">3</span>
+        <span class="stat-label">Work Experiences</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-num">97%</span>
+        <span class="stat-label">Accuracy</span>
+      </div>
+    </div>
+
+    <div class="scroll-hint">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- Skills Marquee -->
+  <div class="marquee-section">
+    <div class="marquee-track">
+      <div class="marquee-content">
+        <span>Machine Learning</span><span class="sep">✦</span>
+        <span>Deep Learning</span><span class="sep">✦</span>
+        <span>NLP</span><span class="sep">✦</span>
+        <span>Generative AI</span><span class="sep">✦</span>
+        <span>Computer Vision</span><span class="sep">✦</span>
+        <span>Python</span><span class="sep">✦</span>
+        <span>TensorFlow</span><span class="sep">✦</span>
+        <span>AWS</span><span class="sep">✦</span>
+        <span>GCP</span><span class="sep">✦</span>
+        <span>Streamlit</span><span class="sep">✦</span>
+        <span>Machine Learning</span><span class="sep">✦</span>
+        <span>Deep Learning</span><span class="sep">✦</span>
+        <span>NLP</span><span class="sep">✦</span>
+        <span>Generative AI</span><span class="sep">✦</span>
+        <span>Computer Vision</span><span class="sep">✦</span>
+        <span>Python</span><span class="sep">✦</span>
+        <span>TensorFlow</span><span class="sep">✦</span>
+        <span>AWS</span><span class="sep">✦</span>
+        <span>GCP</span><span class="sep">✦</span>
+        <span>Streamlit</span><span class="sep">✦</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Featured Projects Preview -->
+  <section class="featured">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Selected Work</span>
+        <h2 class="section-title">Featured <em>Projects</em></h2>
+        <a href="projects.html" class="see-all">See all <i class="fas fa-arrow-right"></i></a>
+      </div>
+
+     <div class="featured-grid">
+        <div class="featured-card card-large">
+          <div class="card-inner">
+            <div class="card-label">01 — Generative AI · Web Development</div>
+            <h3>CodeToLive</h3>
+            <p>A full-stack AI-powered platform built with React and Python. Integrates Generative AI to deliver smart features, deployed seamlessly on Vercel with a robust backend tested via Postman.</p>
+            <div class="card-tags">
+              <span>React</span><span>JavaScript</span><span>Python</span><span>Gen AI</span><span>Vercel</span>
+            </div>
+            <a href="https://codetolive.org" target="_blank" class="card-link">
+              View Project <i class="fas fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+          <div class="card-glow"></div>
+        </div>
+ 
+        <div class="featured-card card-small">
+          <div class="card-inner">
+            <div class="card-label">02 — Generative AI</div>
+            <h3>InterviewIQ</h3>
+            <p>AI-driven interview agent with RAG — simulates real interviews, analyses responses, and gives feedback.</p>
+            <div class="card-tags"><span>FastAPI</span><span>React</span><span>RAG</span></div>
+            <a href="https://ai-interview-agent-frontend-five.vercel.app/" target="_blank" class="card-link">View <i class="fas fa-arrow-right"></i></a>
+          </div>
+          <div class="card-glow"></div>
+        </div>
+ 
+        <div class="featured-card card-small">
+          <div class="card-inner">
+            <div class="card-label">03 — Generative AI · Live Streaming</div>
+            <h3>CodeTogether</h3>
+            <p>Real-time AI pair programming with WebSocket collaboration — code together, anywhere.</p>
+            <div class="card-tags"><span>WebSocket</span><span>Python</span><span>JS</span></div>
+            <a href="https://pair-programming-agent-dt92.vercel.app/" target="_blank" class="card-link">View <i class="fas fa-arrow-right"></i></a>
+          </div>
+          <div class="card-glow"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-box">
+        <div class="cta-orb"></div>
+        <span class="cta-tag">Open to work</span>
+        <h2>Let's build something <em>remarkable</em> together.</h2>
+        <p>Whether it's a research project, a startup, or a product — I'm ready.</p>
+        <a href="contact.html" class="btn-primary">Start a Conversation <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-left">
+          <span class="footer-logo">TS<span class="dot">.</span></span>
+          <p>AI Engineer — Building the future with AI.</p>
+        </div>
+        <div class="footer-links">
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="experience.html">Experience</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-social">
+          <a href="https://github.com/Tarun-1907" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/tarunjit-saha-3a0092233/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:tarun2003jit@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Tarunjit Saha. Crafted with passion.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

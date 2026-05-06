@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects — Tarunjit Saha</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="page-projects">
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursor-follower"></div>
+
+  <header class="header" id="header">
+    <nav class="nav">
+      <a href="index.html" class="nav-logo">TS<span class="dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="projects.html" class="nav-link active">Projects</a></li>
+        <li><a href="experience.html" class="nav-link">Experience</a></li>
+        <li><a href="contact.html" class="nav-link nav-cta">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+    <div class="mobile-menu" id="mobile-menu">
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="page-hero">
+    <div class="page-hero-bg">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+    </div>
+    <div class="container">
+      <span class="page-tag reveal-up">My Work</span>
+      <h1 class="page-title reveal-up" style="animation-delay:0.2s">
+        Projects that <em>matter</em>
+      </h1>
+    </div>
+  </div>
+
+  <!-- Filter Tabs -->
+  <div class="filter-bar container reveal-up" style="animation-delay:0.3s">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="genai">Generative AI</button>
+    <button class="filter-btn" data-filter="ml">Machine Learning</button>
+    <button class="filter-btn" data-filter="web">Web Development</button>
+  </div>
+
+  <section class="projects-section">
+    <div class="container">
+      <div class="projects-grid">
+
+        <div class="project-item" data-category="web">
+          <div class="project-num">01</div>
+          <div class="project-body">
+            <div class="project-top">
+              <div class="project-cats"><span class="pcat">Generative AI</span><span class="pcat">Web Development</span></div>
+              <div class="project-links">
+                <a href="https://codetolive.org" target="_blank" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+            <h3 class="project-title">CodeToLive</h3>
+            <p class="project-desc">AI-powered video explanation model using Streamlit and Gemini. Upload a video or provide a link — get detailed summaries, ask questions, receive accurate answers. Built for research, education, and media analysis.</p>
+            <div class="project-tech">
+              <span>React</span><span>JavaScript</span><span>Python</span><span>Postman</span><span>Vercel</span><span>Gen AI</span>
+            </div>
+          </div>
+          <div class="project-arrow"><i class="fas fa-arrow-up-right-from-square"></i></div>
+        </div>
+
+        <div class="project-item" data-category="genai">
+          <div class="project-num">02</div>
+          <div class="project-body">
+            <div class="project-top">
+              <div class="project-cats"><span class="pcat">Generative AI</span><span class="pcat">Web Development</span></div>
+              <div class="project-links">
+                <a href="https://ai-interview-agent-frontend-five.vercel.app/" target="_blank" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+            <h3 class="project-title">InterviewIQ</h3>
+            <p class="project-desc">AI-powered video explanation model using Streamlit and Gemini. Upload a video or provide a link — get detailed summaries, ask questions, receive accurate answers. Built for research, education, and media analysis.</p>
+            <div class="project-tech">
+              <span>Python</span><span>FastAPI</span><span>React JS</span><span>Vercel</span><span>Render</span><span>RAG</span>
+            </div>
+          </div>
+          <div class="project-arrow"><i class="fas fa-arrow-up-right-from-square"></i></div>
+        </div>
+
+        <div class="project-item" data-category="genai">
+          <div class="project-num">03</div>
+          <div class="project-body">
+            <div class="project-top">
+              <div class="project-cats"><span class="pcat">Generative AI</span><span class="pcat">Live Streaming</span><span class="pcat">Team Collaboration</span></div>
+              <div class="project-links">
+                <a href="https://pair-programming-agent-dt92.vercel.app/" target="_blank" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+            <h3 class="project-title">CodeTogether</h3>
+            <p class="project-desc">AI-powered video explanation model using Streamlit and Gemini. Upload a video or provide a link — get detailed summaries, ask questions, receive accurate answers. Built for research, education, and media analysis.</p>
+            <div class="project-tech">
+              <span>Python</span><span>Web Socket</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Vercel</span><span>Render</span>
+            </div>
+          </div>
+          <div class="project-arrow"><i class="fas fa-arrow-up-right-from-square"></i></div>
+        </div>
+
+        <div class="project-item" data-category="genai">
+          <div class="project-num">04</div>
+          <div class="project-body">
+            <div class="project-top">
+              <div class="project-cats"><span class="pcat">Generative AI</span><span class="pcat">NLP</span></div>
+              <div class="project-links">
+                <a href="https://studious-app.streamlit.app/" target="_blank" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+            <h3 class="project-title">STUDIOUS</h3>
+            <p class="project-desc">AI-powered video explanation model using Streamlit and Gemini. Upload a video or provide a link — get detailed summaries, ask questions, receive accurate answers. Built for research, education, and media analysis.</p>
+            <div class="project-tech">
+              <span>Gemini</span><span>Python</span><span>Streamlit</span><span>NLP</span>
+            </div>
+          </div>
+          <div class="project-arrow"><i class="fas fa-arrow-up-right-from-square"></i></div>
+        </div>
+
+        <div class="project-item" data-category="genai ml">
+          <div class="project-num">05</div>
+          <div class="project-body">
+            <div class="project-top">
+              <div class="project-cats"><span class="pcat">ATS</span><span class="pcat">Gemini Vision</span></div>
+              <div class="project-links">
+                <a href="https://applicationtracking-system.streamlit.app/" target="_blank" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+            <h3 class="project-title">ResumeRadar</h3>
+            <p class="project-desc">Application Tracking System powered by Gemini Pro Vision. Matches resumes with job descriptions, assigns scores, and provides targeted improvement suggestions. Deployed with Streamlit — helped 15+ students land better roles.</p>
+            <div class="project-tech">
+              <span>Streamlit</span><span>Python</span><span>Gemini Pro Vision</span><span>pdf2image</span>
+            </div>
+          </div>
+          <div class="project-arrow"><i class="fas fa-arrow-up-right-from-square"></i></div>
+        </div>
+
+        <div class="project-item" data-category="ml">
+          <div class="project-num">06</div>
+          <div class="project-body">
+            <div class="project-top">
+              <div class="project-cats"><span class="pcat">Recommendation</span><span class="pcat">ML</span></div>
+              <div class="project-links">
+                <a href="#" title="Details"><i class="fas fa-info-circle"></i></a>
+              </div>
+            </div>
+            <h3 class="project-title">NestFinder</h3>
+            <p class="project-desc">Student-centric PG recommendation engine using collaborative and popularity-based filtering. Manually collected data via Google APIs. Achieved 99.5% accuracy — 40% boost in user engagement, 50% improved search efficiency.</p>
+            <div class="project-tech">
+              <span>Collaborative Filtering</span><span>Google API</span><span>Matplotlib</span>
+            </div>
+          </div>
+          <div class="project-arrow"><i class="fas fa-info-circle"></i></div>
+        </div>
+
+        <div class="project-item" data-category="ml">
+          <div class="project-num">07</div>
+          <div class="project-body">
+            <div class="project-top">
+              <div class="project-cats"><span class="pcat">Deep Learning</span><span class="pcat">Business</span></div>
+              <div class="project-links">
+                <a href="#" title="Details"><i class="fas fa-info-circle"></i></a>
+              </div>
+            </div>
+            <h3 class="project-title">ChurnGuard</h3>
+            <p class="project-desc">Customer churn prediction model using TensorFlow. Preprocessed real-world business data achieving 94% success rate. Interactive Flask API interface with HTML/CSS for seamless business interaction.</p>
+            <div class="project-tech">
+              <span>TensorFlow</span><span>Pandas</span><span>NumPy</span><span>Flask</span><span>Seaborn</span>
+            </div>
+          </div>
+          <div class="project-arrow"><i class="fas fa-info-circle"></i></div>
+        </div>
+
+        <div class="project-item" data-category="web">
+          <div class="project-num">08</div>
+          <div class="project-body">
+            <div class="project-top">
+              <div class="project-cats"><span class="pcat">Web App</span><span class="pcat">Productivity</span></div>
+              <div class="project-links">
+                <a href="https://tarun-1907.github.io/TODO/" target="_blank" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+            <h3 class="project-title">TODO</h3>
+            <p class="project-desc">Feature-rich task management web app. Includes categorization, priority levels, due dates, reminders, drag-and-drop, dark mode, and real-time notifications. A clean, intuitive productivity tool.</p>
+            <div class="project-tech">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+          </div>
+          <div class="project-arrow"><i class="fas fa-external-link-alt"></i></div>
+        </div>
+
+        <div class="project-item" data-category="genai ml">
+          <div class="project-num">09</div>
+          <div class="project-body">
+            <div class="project-top">
+              <div class="project-cats"><span class="pcat">NLP</span><span class="pcat">Multilingual</span></div>
+              <div class="project-links">
+                <a href="#" title="Details"><i class="fas fa-info-circle"></i></a>
+              </div>
+            </div>
+            <h3 class="project-title">Translingo</h3>
+            <p class="project-desc">Multilingual translation model that converts video and audio into different languages. Using Whisper for transcription and GTTS for speech output — transcribes, translates, and speaks in the desired language.</p>
+            <div class="project-tech">
+              <span>Streamlit</span><span>NLP</span><span>Whisper</span><span>GTTS</span>
+            </div>
+          </div>
+          <div class="project-arrow"><i class="fas fa-info-circle"></i></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-left">
+          <span class="footer-logo">TS<span class="dot">.</span></span>
+          <p>AI Engineer — Building the future with AI.</p>
+        </div>
+        <div class="footer-links">
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="experience.html">Experience</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-social">
+          <a href="https://github.com/Tarun-1907" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/tarunjit-saha-3a0092233/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:tarun2003jit@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Tarunjit Saha. Crafted with passion.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
